@@ -4,11 +4,15 @@ import { hero, resumeHref } from "../content"
 import { useGridParallax } from "../hooks"
 
 function Split({ text }) {
-  return text.split("").map((ch, i) => (
-    <span key={i} data-split-char aria-hidden="true" style={{ display: "inline-block" }}>
-      {ch === " " ? "\u00A0" : ch}
-    </span>
-  ))
+  return text.split("").map((ch, i) =>
+    ch === " " ? (
+      <span key={i} aria-hidden="true">{" "}</span>
+    ) : (
+      <span key={i} data-split-char aria-hidden="true" style={{ display: "inline-block" }}>
+        {ch}
+      </span>
+    )
+  )
 }
 
 export function Hero({ started }) {

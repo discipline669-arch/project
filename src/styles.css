@@ -114,6 +114,8 @@ section {
 .eyebrow {
   display: inline-flex;
   align-items: center;
+  flex-wrap: wrap;
+  max-width: 100%;
   gap: 9px;
   font-family: var(--font-mono);
   font-size: 11px;
@@ -303,9 +305,9 @@ section {
   gap: 22px 34px;
   margin-bottom: 32px;
 }
-.meta-row { display: flex; flex-direction: column; gap: 2px; }
+.meta-row { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
 .meta-row span { font-family: var(--font-mono); font-size: 10px; letter-spacing: .16em; text-transform: uppercase; color: var(--ink-mute); }
-.meta-row b { font-family: var(--font-mono); font-weight: 500; font-size: 13px; color: var(--ink); }
+.meta-row b { font-family: var(--font-mono); font-weight: 500; font-size: 13px; color: var(--ink); min-width: 0; overflow-wrap: anywhere; }
 
 .hero-cta { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
 .resume-cta {
@@ -336,6 +338,8 @@ section {
 
 .project-focus a {
   display: inline-flex; align-items: center; gap: 7px;
+  max-width: 100%;
+  overflow-wrap: anywhere;
   font-family: var(--font-mono); font-size: 12px; color: var(--ink-dim);
   border-bottom: 1px solid var(--line); padding-bottom: 2px;
   transition: color .3s var(--ease-out);
@@ -469,11 +473,13 @@ section {
 .about-name em { color: var(--accent); }
 .stat-line {
   display: flex; align-items: baseline; justify-content: space-between; gap: 16px;
+  flex-wrap: wrap;
+  min-width: 0;
   border-bottom: 1px dashed var(--line-soft);
   padding: 10px 0;
 }
 .stat-line span { font-family: var(--font-mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-mute); }
-.stat-line b { font-family: var(--font-mono); font-weight: 500; font-size: 13px; color: var(--ink); text-align: right; }
+.stat-line b { font-family: var(--font-mono); font-weight: 500; font-size: 13px; color: var(--ink); text-align: right; min-width: 0; overflow-wrap: anywhere; }
 
 /* ---------- Skills ---------- */
 .skills-wrap { display: flex; flex-direction: column; gap: 40px; }
@@ -635,9 +641,9 @@ section {
 }
 .contact-link .ico { width: 38px; height: 38px; flex: none; display: grid; place-items: center; border-radius: 10px; border: 1px solid var(--line-soft); color: var(--accent); transition: border-color .3s var(--ease-out), box-shadow .3s var(--ease-out); }
 .contact-link .ico svg { width: 17px; height: 17px; }
-.contact-link .lbl { display: flex; flex-direction: column; }
+.contact-link .lbl { display: flex; flex-direction: column; min-width: 0; }
 .contact-link .lbl span { font-size: 9.5px; letter-spacing: .16em; text-transform: uppercase; color: var(--ink-mute); }
-.contact-link .lbl b { font-weight: 500; }
+.contact-link .lbl b { font-weight: 500; min-width: 0; overflow-wrap: anywhere; }
 .contact-link:hover { color: var(--accent); padding-left: 8px; }
 .contact-link:hover .ico { border-color: color-mix(in oklab, var(--accent) 55%, var(--line)); box-shadow: 0 0 20px -6px var(--accent); }
 
@@ -774,4 +780,5 @@ footer .tag { color: var(--accent); }
   body { padding-top: 46px; font-size: 14px; }
   .id-panel { left: 20px; right: 20px; }
   .hero-lede { font-size: 16px; }
+  .mobile-nav a { font-size: 8.5px; letter-spacing: .02em; }
 }

@@ -19,15 +19,13 @@ export const meta = {
 
 export const hero = {
   eyebrow: "Backend & Full-Stack Developer",
-  dots: ["•", "Java", "•", "Python", "•", "TypeScript", "•", "Spring Boot"],
-  greeting: "Hey, I'm",
+  greeting: "I'm",
   name: "Nehal Solanki",
-  wild: "building for scale.",
+  wild: "building for scale and impact.",
   glint: true,
-  lede: "Computer Science student at VIT Vellore specializing in backend & full-stack engineering — building REST APIs, microservices, distributed systems, and ML-driven products.",
+  lede: "Computer Science student at VIT Vellore specializing in backend & full-stack engineering — building REST APIs, microservices, distributed systems, and AIML-driven products.",
   meta: [
     { label: "Location", value: "Pune, India" },
-    { label: "Focus", value: "Spring Boot · NestJS · Docker" },
     { label: "Email", value: "nehalsolanki076@gmail.com" },
   ],
   badge: "Status: open to internships & roles",
@@ -36,15 +34,7 @@ export const hero = {
     url: "#projects",
     text: "AI revision system with 0.84 ROC-AUC →",
   },
-  card: {
-    chip: "STUDENT DEV ID",
-    chipSub: "#VIT·2027",
-    stats: [
-      { value: "8.72", label: "CGPA / 10" },
-      { value: "3+", label: "Projects" },
-      { value: "2", label: "Internships" },
-    ],
-  },
+  
 }
 
 export const about = {
@@ -62,8 +52,7 @@ export const about = {
   facts: [
     { label: "Based in", value: "Pune, India" },
     { label: "Education", value: "B.Tech CSE (BIO) @ VIT" },
-    { label: "Favorite stack", value: "Java + Spring Boot + Postgres" },
-    { label: "Currently", value: "Open to internships" },
+    { label: "Currently", value: "Open to internships and full time roles" },
   ],
 }
 
@@ -146,21 +135,21 @@ export const projects = [
     title: "Ready to Revise",
     blurb: "AI-powered intelligent revision system — a microservices backend integrating 5+ behavioral signals to personalize study schedules, with an ML pipeline tuned to 0.84 ROC-AUC and 15+ REST endpoints powering an Android app.",
     tags: ["Kotlin", "NestJS", "FastAPI", "PostgreSQL", "Scikit-learn", "Docker", "CI/CD"],
-    links: [{ label: "Repo", href: "#" }],
+    links: [{ label: "Repo", href: "https://github.com/nehalss267/Ready-To-Revise--Revision-Scheduler-App" }],
   },
   {
     idx: "02",
     title: "Society Maintenance Platform",
     blurb: "Full-stack society management platform with a 56-endpoint REST API, 4-role authorization, JWT auth, SLA-based overdue detection, Kafka + Redis, and 66+ end-to-end checks.",
     tags: ["Next.js", "Spring Boot", "MongoDB", "Redis", "Kafka", "JUnit"],
-    links: [{ label: "Repo", href: "#" }],
+    links: [{ label: "Repo", href: "https://github.com/nehalss267/Society-Maintenance-Tracker" }],
   },
   {
     idx: "03",
     title: "Product Analytics Dashboard",
     blurb: "8 optimized analytical SQL views (joins, aggregations, CTEs, window functions) across sales, ratings, discount trends, sellers, inventory, and returns — visualized in interactive Power BI dashboards.",
     tags: ["PostgreSQL", "SQL", "Excel", "Power BI"],
-    links: [{ label: "Repo", href: "#" }],
+    links: [{ label: "Repo", href: "https://github.com/nehalss267/Product-Analytics-Dashboard" }],
   },
 ]
 
@@ -171,7 +160,7 @@ export const contact = {
   intro: "Have a backend or full-stack role, an internship, or a project worth building? My inbox is open.",
   links: [
     { label: "Email", value: "nehalsolanki076@gmail.com", href: "mailto:nehalsolanki076@gmail.com", icon: "mail" },
-    { label: "GitHub", value: "github.com/nehalss", href: "https://github.com/nehalss", icon: "github" },
+    { label: "GitHub", value: "github.com/nehalss267", href: "https://github.com/nehalss267", icon: "github" },
     { label: "LinkedIn", value: "linkedin.com/in/nehalss", href: "https://linkedin.com/in/nehalss", icon: "linkedin" },
     { label: "Resume", value: "Nehal_Solanki_Resume.pdf", href: "./Nehal_Solanki_Resume.pdf", icon: "file" },
   ],
@@ -185,6 +174,5 @@ export const contact = {
 export const resumeHref = "./Nehal_Solanki_Resume.pdf"
 
 export const footer = {
-  line: "Load-tested, CI/CD'd, and shipped from Pune, India.",
   tag: "© 2026 · Nehal Solanki",
 }
