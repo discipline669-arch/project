@@ -21,6 +21,7 @@ export const hero = {
   eyebrow: "Backend & Full-Stack Developer",
   dots: ["•", "Java", "•", "Python", "•", "TypeScript", "•", "Spring Boot"],
   greeting: "I'm",
+ 
   name: "Nehal Solanki",
   wild: "building for scale and impact.",
   glint: true,
@@ -35,7 +36,23 @@ export const hero = {
     url: "#projects",
     text: "AI revision scheduler system  →",
   },
-
+    card: {
+    chip: "Student Card",
+    chipSub: "VIT · 2027",
+    name: "Nehal Solanki",
+    program: "B.Tech CSE  · VIT Vellore",
+    year: "2023 — 2027",
+    highlights: [
+      "ML intern — 91.2% churn-model accuracy",
+      "OCI Generative AI Professional certified",
+      "Events Head — IEEE ITS",
+      "3+ full-stack projects shipped",
+    ],
+    stats: [
+      { value: "3+", label: "Projects" },
+      { value: "2", label: "Internships" },
+    ],
+  },
 }
 
 export const about = {
@@ -52,7 +69,7 @@ export const about = {
   ],
   facts: [
     { label: "Based in", value: "Pune, India" },
-    { label: "Education", value: "B.Tech CSE (BIO) @ VIT" },
+    { label: "Education", value: "B.Tech CSE @ VIT" },
     { label: "Currently", value: "Open to internships and full time roles" },
   ],
 }
@@ -69,7 +86,7 @@ export const experience = {
       place: "Pune, India",
       period: "May 2026 — Jun 2026",
       bullets: [
-        "Developed modular Python ML pipelines for data preprocessing, feature engineering, model training, validation, and evaluation across datasets of 12,000+ customer records.",
+        "Developed modular Python ML pipelines for data preprocessing, feature engineering, model training, validation, and evaluation across datasets of 12,000+ customer records to predict customer churn.",
         "Built reusable Scikit-learn workflows with Random Forest and XGBoost, using GridSearchCV for hyperparameter tuning — improving prediction accuracy from 86.4% to 91.2%.",
         "Evaluated models with Accuracy, F1-score, and ROC-AUC, applying testing, data validation, modular design, debugging, and Git-based collaboration.",
       ],
@@ -152,6 +169,7 @@ export const projects = [
     tags: ["PostgreSQL", "SQL", "Excel", "Power BI"],
     links: [{ label: "Repo", href: "https://github.com/nehalss267/Product-Analytics-Dashboard" }],
   },
+
 ]
 
 export const contact = {
@@ -175,5 +193,5 @@ export const contact = {
 export const resumeHref = "./Nehal_Solanki_Resume.pdf"
 
 export const footer = {
-  tag: "© 2026 · Nehal Solanki",
+  tag: "© 2026 · Nehal Shailesh Solanki",
 }

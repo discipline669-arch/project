@@ -73,7 +73,8 @@ export function Hero({ started }) {
         </span>
 
         <h1 className="hero-title" data-hero-fade>
-          {hero.greeting} <Split text={display} />
+          <span className="hero-greeting">{hero.greeting}</span>
+          <span className="hero-name"><Split text={display} /></span>
         </h1>
 
         <div className="hero-wild" data-hero-fade aria-hidden="true">{hero.wild}</div>
@@ -110,7 +111,6 @@ export function Hero({ started }) {
         </div>
 
         <div className="scroll-cue" aria-hidden="true">
-          scroll
           <span className="arrow" />
         </div>
       </div>
@@ -118,11 +118,25 @@ export function Hero({ started }) {
       {hero.card && (
         <div className="hero-visual" data-hero-card>
           <div className="id-card" ref={cardRef}>
-            <div className="id-chip">
-              <b>{hero.card.chip}</b>
-              {hero.card.chipSub}
+            <div className="id-top">
+              <div className="id-chip">
+                <b>{hero.card.chip}</b>
+                {hero.card.chipSub}
+              </div>
+              <span className="id-year">{hero.card.year}</span>
             </div>
-            <div className="id-panel" aria-hidden="true">
+
+            <div className="id-body">
+              <h3 className="id-name">{hero.card.name}</h3>
+              <p className="id-program">{hero.card.program}</p>
+              <ul className="id-highlights">
+                {hero.card.highlights.map((h) => (
+                  <li key={h}>{h}</li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="id-panel">
               <div className="id-stats">
                 {hero.card.stats.map((s) => (
                   <div key={s.label}>
