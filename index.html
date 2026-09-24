@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <script>
+    (function () {
+      var d = document.documentElement;
+      d.dataset.lite = 'false';
+      try {
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) d.dataset.lite = 'true';
+      } catch (e) {}
+    })();
+  </script>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23141210'/%3E%3Cpath d='M8 22V10l3 6.5L14 10v12' stroke='%23d9a45b' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#141210" />
+  <meta name="description" content="Nehal Solanki — Backend & Full-Stack Developer. B.Tech CSE at VIT Vellore. Spring Boot, NestJS, PostgreSQL, Kafka, Redis, Docker, and AI/ML." />
+  <meta name="keywords" content="Nehal Solanki, Backend Developer, Full-Stack Developer, VIT Vellore, Spring Boot, NestJS, Java, Python, Microservices, Portfolio" />
+  <meta name="author" content="Nehal Solanki" />
+  <meta property="og:title" content="Nehal Solanki — Backend & Full-Stack Developer" />
+  <meta property="og:description" content="Backend & full-stack engineer building REST APIs, microservices, distributed systems, and ML-driven products." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+    media="print"
+    onload="this.media='all'"
+  />
+  <noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  </noscript>
+
+  <title>Nehal Solanki — Backend & Full-Stack Developer</title>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>

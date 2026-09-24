@@ -1,0 +1,57 @@
+NEHAL SHAILESH SOLANKI
++ Pune, India | # nehalsolanki076@gmail.com |  +91 8799891622 | ï linkedin.com/in/nehalss | § GitHub
+PROFESSIONAL SUMMARY
+Computer Science student specializing in backend and full-stack software engineering, with hands-on experience
+building REST APIs, microservices, distributed systems, automated testing, and database-driven applications. Proficient in Java, Python, Spring Boot, NestJS, PostgreSQL, MongoDB, Kafka, Redis, Docker, and
+CI/CD, with experience implementing scalable service architectures, and end-to-end testing. Strong foundation
+in Data Structures & Algorithms, Object-Oriented Programming, DBMS, Operating Systems, Computer
+Networks, and cloud computing, with additional experience in AI/ML, RAG, LLMs, and predictive modeling.
+EDUCATION
+B.Tech in Computer Science & Engineering (Bioinformatics) Aug 2023 - Jul 2027
+Vellore Institute of Technology (VIT), Vellore CGPA: 8.72/10
+EXPERIENCE
+Machine Learning Intern May 2026 - Jun 2026
+Brillianz Software Solutions LLP, Pune
+• Developed modular Python-based ML pipelines for data preprocessing, feature engineering, model training, validation,
+and evaluation across datasets containing 12,000+ customer records.
+• Built reusable Scikit-learn workflows using Random Forest and XGBoost with GridSearchCV for hyperparameter
+optimization, improving prediction accuracy from 86.4% to 91.2%.
+• Evaluated predictive models using Accuracy, F1-score, and ROC-AUC, and applied structured problem-solving
+practices including testing, data validation, modular pipeline design, debugging & Git-based collaboration.
+AI & Cloud Technologies Intern Jul 2025 -Aug 2025
+IBM SkillsBuild Internship by Edunet Foundation, Remote
+• Engineered 2 cloud-based AI applications & Agentic AI workflows using Python, Large Language Models,
+LangChain, and IBM Cloud, integrating AI capabilities into data-driven application workflows.
+• Established RAG pipelines involving document ingestion, data preprocessing, embeddings, vector search, semantic
+retrieval, and prompt engineering for context-aware responses, gaining practical exposure to Generative AI.
+PROJECTS
+Ready to Revise - AI-Powered Intelligent Revision System Kotlin | TypeScript | NestJS | Node.js | Prisma |
+PostgreSQL | Python | FastAPI | Scikit-learn | Tailwind CSS | Pytest | Docker |CI/CD
+• Designed a microservices-based backend integrating 5+ behavioral signals, including student performance, confidence, response time, hesitation, and historical revision behavior, to personalize revision schedules.
+• Assembled an ML pipeline for feature engineering, model training, validation, and prediction; compared and
+tuned Logistic Regression, Random Forest, and Histogram Gradient Boosting, achieving 0.84 ROC-AUC.
+• Programmed and integrated 15+ REST API endpoints between the backend and Android application for question
+management, revision tracking, feedback collection, and automated scheduling.
+Society Maintenance & Management Platform Next.js | React | Spring Boot | MongoDB | JUnit | Redis | Kafka
+• Architected a full-stack society management platform with a 56 endpoint REST API, MongoDB persistence, and
+role-specific resident and staff workflows.
+• Built automated API and end-to-end test coverage with 37 tests and 66+ end-to-end checks covering
+authentication, authorization, CRUD workflows, core business logic, and security scenarios.
+• Implemented 4-role authorization and JWT authentication, complaint tracking, SLA-based overdue detection,
+and audit logging, validating role-specific access and workflow behavior.
+Product Analytics Dashboard Excel | PostgreSQL | SQL | Power BI
+• Designed and optimized 8 analytical SQL views using joins, aggregations, CTEs, and window functions to analyze
+sales performance, product ratings, discount trends, seller performance, inventory levels, and return policies.
+• Performed data cleansing, transformation, normalization, and validation on data using Excel and PostgreSQL.
+• Built interactive Power BI dashboards with KPI cards, slicers, drill-throughs, and dynamic visualizations.
+SKILLS
+Languages: Java, Python, TypeScript, JavaScript, Kotlin, SQL
+Backend & Distributed System: Spring Boot, FastAPI, NestJS, Node.js, Express.js, Microservices, Kafka, Redis
+Frontend: React, Next.js, HTML, CSS, Tailwind CSS
+Data, Databases & ORM: PowerBI, Microsoft 365, Excel, PostgreSQL, MongoDB, Prisma, SQL
+Cloud, DevOps & Tools: AWS, GCP, Azure, Docker, Kubernetes, CI/CD, Git, GitLab, Maven, Terraform
+Software Engineering: JUnit, Pytest, Automated Testing, End-to-End Testing, Agile, Scrum
+AI/ML: Scikit-learn, Random Forest, RAG, LangChain, LLMs, Agentic AI, Prompt Engineering, Vector Search, GenAI
+ACHIEVEMENTS
+• Oracle Cloud Infrastructure Generative AI Professional Certification July 2025 - July 2027
+• Events Head, IEEE ITS: Demonstrated leadership, cross-functional collaboration, & stakeholder co-ordination.
