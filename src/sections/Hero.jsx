@@ -56,7 +56,7 @@ export function Hero({ started }) {
   }, [started])
 
   useEffect(() => {
-    if (!started || hero.dots.length < 3) return
+    if (!started || !hero.dots || hero.dots.length < 3) return
     const t = setInterval(() => setWord((w) => (w + 1) % hero.dots.length), 2800)
     return () => clearInterval(t)
   }, [started])
@@ -69,7 +69,7 @@ export function Hero({ started }) {
         <span className="eyebrow" data-hero-fade>
           <span className="dot" aria-hidden="true" />
           {hero.eyebrow}
-          <span aria-hidden="true">{hero.dots[word]}</span>
+          {hero.dots && <span aria-hidden="true">{hero.dots[word]}</span>}
         </span>
 
         <h1 className="hero-title" data-hero-fade>
@@ -115,25 +115,27 @@ export function Hero({ started }) {
         </div>
       </div>
 
-      <div className="hero-visual" data-hero-card>
-        <div className="id-card" ref={cardRef}>
-          <div className="id-chip">
-            <b>{hero.card.chip}</b>
-            {hero.card.chipSub}
-          </div>
-          <div className="id-panel" aria-hidden="true">
-            <div className="id-stats">
-              {hero.card.stats.map((s) => (
-                <div key={s.label}>
-                  <b>{s.value}</b>
-                  <span>{s.label}</span>
-                </div>
-              ))}
+      {hero.card && (
+        <div className="hero-visual" data-hero-card>
+          <div className="id-card" ref={cardRef}>
+            <div className="id-chip">
+              <b>{hero.card.chip}</b>
+              {hero.card.chipSub}
             </div>
-            <div className="id-barcode" aria-hidden="true" />
+            <div className="id-panel" aria-hidden="true">
+              <div className="id-stats">
+                {hero.card.stats.map((s) => (
+                  <div key={s.label}>
+                    <b>{s.value}</b>
+                    <span>{s.label}</span>
+                  </div>
+                ))}
+              </div>
+              <div className="id-barcode" aria-hidden="true" />
+            </div>
           </div>
         </div>
-      </div>
+      )}
     </section>
   )
 }

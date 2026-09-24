@@ -19,6 +19,7 @@ export const meta = {
 
 export const hero = {
   eyebrow: "Backend & Full-Stack Developer",
+  dots: ["•", "Java", "•", "Python", "•", "TypeScript", "•", "Spring Boot"],
   greeting: "I'm",
   name: "Nehal Solanki",
   wild: "building for scale and impact.",
@@ -28,13 +29,13 @@ export const hero = {
     { label: "Location", value: "Pune, India" },
     { label: "Email", value: "nehalsolanki076@gmail.com" },
   ],
-  badge: "Status: open to internships & roles",
+  badge: "Status: open to internships & full-time roles",
   focus: {
     label: "Current focus",
     url: "#projects",
-    text: "AI revision system with 0.84 ROC-AUC →",
+    text: "AI revision scheduler system  →",
   },
-  
+
 }
 
 export const about = {
@@ -167,7 +168,7 @@ export const contact = {
   card: {
     title: "Response time",
     mono: "~24h × 7",
-    body: "Average reply under 24 hours. Reach out about internships, collaborations, or anything in between.",
+    body: "Average reply under 24 hours. Reach out about internships, job roles, collaborations, or anything in between.",
   },
 }
 
