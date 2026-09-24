@@ -2,10 +2,9 @@ services:
   - type: web
     name: nehal-solanki-portfolio
     runtime: static
-    plan: free
     buildCommand: npm ci --include=dev && npm run build
     staticPublishPath: ./dist
-    autoDeploy: true
+    autoDeployTrigger: commit
     routes:
       - type: rewrite
         source: /*
